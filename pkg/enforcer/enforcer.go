@@ -2,9 +2,10 @@ package enforcer
 
 import (
 	"fmt"
-	"go-htmx/internal/rules"
 	"reflect"
 	"strings"
+
+	"github.com/vitorhugoze/enforcer/internal/rules"
 )
 
 var ruleEnforcer RuleEnforcer
